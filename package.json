@@ -1,0 +1,16 @@
+{
+  "name": "ts-pipeline-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.4",
+    "purify-ts": "^0.13.1",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
+  }
+}
